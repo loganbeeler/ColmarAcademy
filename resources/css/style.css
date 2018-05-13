@@ -1,0 +1,17 @@
+/* Universal Styles */
+
+html {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+}
+
+/* Header Section */
+
+.header {
+  background-color: white;
+  height: 4rem;
+}
+
+.logo {
+  height: 2rem;
+}
