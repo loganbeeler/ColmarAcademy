@@ -10,6 +10,10 @@ h1 {
   font-weight: bold;
 }
 
+.flex-container {
+  display: flex;
+}
+
 /* Header Section */
 
 header {
@@ -62,32 +66,48 @@ ul li {
 /* Main Banner Section */
 
 .main-banner {
-  background-color: silver;
-  margin: 0 auto;
-  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
-  width: 100%;
-  justify-content: space-between;
+  background-color: lightgray;
 }
 
-.main-banner img {
+.main-banner .image-large {
   width: 60%;
-  height: auto;
   padding: 2rem 1.5rem;
 }
 
 .text-content {
+  width: 30%;
   display: flex;
   flex-direction: column;
 }
 
-.text-content a {
-  background-color: gray;
-  color: white;
-  font-weight: lighter;
-  padding: .5rem 0;
-  width: 100%;
+.text-content h1 {
+  color: #464646;
+  font-size: 2.5rem;
+  padding-bottom: .75rem;
+  flex-shrink: 1;
+}
+
+.text-content p {
+  color: #464646;
+  font-size: 1.25rem;
+}
+
+.text-content .button {
+  margin-top: 2rem;
+}
+
+.text-content .button a{
   text-align: center;
+  font-size: inherit;
+  margin-top: 1rem;
+  background-color: #464646;
+  border: none;
+  color: white;
+  padding: .5rem 25%;
+  margin-top: 1rem;
 }
 
 /* Main Content Section */
