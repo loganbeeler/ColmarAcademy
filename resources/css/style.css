@@ -10,8 +10,9 @@ h1 {
   font-weight: bold;
 }
 
-.flex-container {
-  display: flex;
+body {
+  width: 60%;
+  margin: 0 auto;
 }
 
 /* Header Section */
@@ -66,15 +67,19 @@ ul li {
 /* Main Banner Section */
 
 .main-banner {
+  display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   background-color: lightgray;
+  height: auto;
+  width: 100%;
 }
 
-.main-banner .image-large {
-  width: 60%;
+.main-banner img {
   padding: 2rem 1.5rem;
+  width: 60%;
+  height: auto;
 }
 
 .text-content {
@@ -111,6 +116,57 @@ ul li {
 }
 
 /* Main Content Section */
+
+.main-content {
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+}
+
+.practicing {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: auto;
+  padding-left: 1.5rem;
+}
+
+.practicing img {
+  padding: 2rem 1.5rem 2rem 0;
+  width: 100%;
+  height: auto;
+}
+
+.practicing h1 {
+  color: #464646;
+  font-size: 2.5rem;
+  padding-bottom: .75rem;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border-left: 1px solid lightgray;
+}
+
+.list-item .preview {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: auto;
+}
+
+.list-item img {
+  width: 35%;
+  height: auto;
+}
+
+.list-item .preview h3 {
+  font-size: 1.25rem;
+  color: #464646;
+  padding-bottom: .5rem;
+}
 
 /* Start Learning Section */
 
