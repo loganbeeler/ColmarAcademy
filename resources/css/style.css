@@ -10,6 +10,13 @@ h1 {
   font-weight: bold;
 }
 
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #464646;
+  padding-bottom: .5rem;
+}
+
 body {
   width: 60%;
   margin: 0 auto;
@@ -128,7 +135,7 @@ ul li {
   flex-direction: column;
   width: 60%;
   height: auto;
-  padding-left: 1.5rem;
+  padding: 0 1.5rem 2rem 1.5rem;
 }
 
 .practicing img {
@@ -137,20 +144,30 @@ ul li {
   height: auto;
 }
 
-.practicing h1 {
+.practicing-content h1 {
   color: #464646;
   font-size: 2.5rem;
-  padding-bottom: .75rem;
+  padding-bottom: 1.5rem;
+}
+
+.read-more {
+  width: 40%;
+  height: auto;
+  border-left: 1px solid lightgray;
 }
 
 .list-item {
   display: flex;
   align-items: center;
-  width: 40%;
-  border-left: 1px solid lightgray;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
 }
 
-.list-item .preview {
+.list-item:hover {
+  background-color: lightgray;
+}
+
+.preview {
   display: flex;
   flex-direction: column;
   width: 65%;
@@ -160,16 +177,71 @@ ul li {
 .list-item img {
   width: 35%;
   height: auto;
+  padding: 1.5rem;
 }
 
-.list-item .preview h3 {
-  font-size: 1.25rem;
-  color: #464646;
+.preview p {
   padding-bottom: .5rem;
+}
+
+.preview a {
+  color: cornflowerblue;
+  font-size: .85rem;
+}
+
+.source {
+  padding: 2rem 0;
 }
 
 /* Start Learning Section */
 
+.start-learning {
+  background-color: lightgray;
+  width: 100%;
+  height: auto;
+}
+
+.start-learning h1 {
+  text-align: center;
+  color: #464646;
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-top: 2rem;
+}
+
+.subjects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: auto;
+  padding: 2rem 4.5rem 0 4.5rem;
+}
+
+.subject {
+  background-color: white;
+  width: 30%;
+  margin-bottom: 2rem;
+}
+
+.subject img {
+  width: 100%;
+  height: auto;
+}
+
+.subject-text {
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.subject-text h4, p {
+  font-weight: lighter;
+}
+
+.subject-text h3, h4 {
+  padding-bottom: 1rem;
+}
+
 /* Thesis Exhibit Section */
+
+
 
 /* Footer Section */
