@@ -242,6 +242,56 @@ ul li {
 
 /* Thesis Exhibit Section */
 
+.thesis-exhibit {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
 
+.thesis-exhibit h1 {
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+  color: #464646;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 0 auto;
+}
+
+.video {
+  width: 60%;
+  height: auto;
+}
+
+.thesis-content {
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+}
+
+.exhibits-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: auto;
+}
+
+.exhibit {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+.exhibit-image {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.exhibit-text {
+  width: 65%;
+  height: auto;
+}
 
 /* Footer Section */
